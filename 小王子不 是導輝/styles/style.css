@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+body header h1 {
+  color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  font-weight: 500;
+}
+body header h1 a {
+  color: rgb(255, 255, 255);
+}
+body header nav ul {
+  display: flex;
+  padding: 20px 30px;
+}
+body header nav ul li {
+  font-size: 1.1em;
+  color: rgb(186, 186, 186);
+  margin-left: 30px;
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+body main section.home-page {
+  width: 100%;
+  height: 180vh;
+}
+body main section.home-page .text {
+  position: relative;
+}
+body main section.home-page .text h1 {
+  position: absolute;
+  right: 250px;
+  color: white;
+  font-size: 6em;
+  font-weight: 500;
+  z-index: 1;
+}
+body main section.home-page .bg-img {
+  position: relative;
+}
+body main section.home-page .bg-img img {
+  position: absolute;
+  top: -130px;
+  width: 100%;
+  height: 120vh;
+  pointer-events: none;
+  z-index: -1;
+}
+body main section.home-page .moon {
+  position: relative;
+}
+body main section.home-page .moon img {
+  position: absolute;
+  top: -70px;
+  width: 100%;
+  height: 190vh;
+  z-index: 2;
+}
+body main section.home-page .text2 {
+  position: relative;
+}
+body main section.home-page .text2 h1 {
+  position: absolute;
+  line-height: 2em;
+  top: 700px;
+  left: -500px;
+  color: white;
+  font-size: 4em;
+  font-weight: 500;
+  z-index: 3;
+}
+body main section.home-page .bird {
+  position: relative;
+}
+body main section.home-page .bird img {
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  height: 180vh;
+  z-index: 3;
+}
+body main section.home-page svg {
+  position: absolute;
+  right: 50%;
+  bottom: 5px;
+  z-index: 3;
+}
+body main section.secondPage {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  z-index: 4;
+}
+body main section.secondPage img {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 40%;
+  z-index: 4;
+}
+body main section.secondPage .text3 h3 {
+  position: absolute;
+  right: 300px;
+  top: 200px;
+  color: white;
+  font-size: 1.5em;
+}
+body main section.secondPage .text3 p {
+  position: absolute;
+  right: 140px;
+  top: 250px;
+  line-height: 1.8em;
+  color: white;
+}
+body main section.thridPage {
+  position: relative;
+  height: 110vh;
+}
+body main section.thridPage img {
+  position: absolute;
+  left: 30%;
+  width: 40%;
+}
+body main section.fourPage {
+  height: 100vh;
+}
+body main section.fourPage .content {
+  position: relative;
+}
+body main section.fourPage .content h2 {
+  color: white;
+  text-align: center;
+}
+body main section.fourPage .content .imgs {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 10px;
+}
+body main section.fourPage .content .imgs .pic .box {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+body main section.fourPage .content .imgs .pic .box img {
+  width: 300px;
+  filter: blur(3px);
+  transition: 0.4s ease-in-out;
+}
+body main section.fourPage .content .imgs .pic .box img:hover {
+  filter: blur(0);
+}
+body main section.fourPage .content .imgs .pic h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+body main section.fourPage .content .imgs .pic p {
+  text-align: center;
+  line-height: 1.5em;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
